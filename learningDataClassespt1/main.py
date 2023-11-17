@@ -1,6 +1,5 @@
 from Inventorylibrary import ItemOrigin, InventoryItem
 
-
 def main():
     item_origin = ItemOrigin(country = "Ethiopia", production_date = "13/11/2023")
     my_item1 = InventoryItem(name = "Printer", 
@@ -14,4 +13,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
